@@ -67,11 +67,11 @@ a:hover{
     width: 800px;
     height: 850px;
     float: left;
-    margin: 30px 30px 0px 250px;
+    margin: 30px 30px 0px 300px;
 
 }
 #body{
-    width: 400px;
+    width: 380px;
     height: 400px;
     float: left;
     background-color: white;
@@ -177,5 +177,12 @@ button{
 }
 .sec{
     text-align: left;
+}
+.sec:hover{
+    /*background-color: dodgerblue;*/
+    color: dodgerblue;
+}
+.lan:hover #up-down{
+    transform: scale(1,-1);
 }
 
